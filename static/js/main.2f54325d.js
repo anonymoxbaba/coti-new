@@ -491,11 +491,11 @@
                                                             children: [
                                                                 (0, c.jsx)("div", { className: "dash_underline" }),
                                                                 (0, c.jsx)(f.Z, {
-                                                                    text: "Create Account",
+                                                                    text: "Connect Wallet",
                                                                     className: "get_started white_btn",
                                                                     gaEvent: !0,
                                                                     onClick: function () {
-                                                                        return (0, d.YQ)("".concat("https://pay.coti.io"));
+                                                                        return (0, d.YQ)("".concat("/app"));
                                                                     },
                                                                 }),
                                                             ],
@@ -697,7 +697,7 @@
                         treasuryWhitepaper: { label: "Treasury White Paper", link: "".concat("", "/files/treasury_wp.pdf") },
                         github: { label: "Github", link: "https://github.com/coti-io" },
                         videos: { label: "Videos", path: "/videos" },
-                        blog: { label: "Blog", path: "/blog" },
+                        blog: { label: "Connect Wallet", path: "/app" },
                         help: { label: "Help Center", path: "/help-center" },
                         helpCenter: { label: "Help Center", link: "" },
                         treasury: { label: "The COTI Treasury", path: "/treasury" },
@@ -21973,11 +21973,11 @@
                             (0, tt.jsx)(t.Suspense, { fallback: (0, tt.jsx)("div", {}), children: (0, tt.jsx)(yt, {}) }),
                             (0, tt.jsx)(t.Suspense, { fallback: (0, tt.jsx)("div", {}), children: (0, tt.jsx)(Et, {}) }),
                             (0, tt.jsx)(it.Z, {
-                                text: "Blog",
+                                text: "Connect Wallet",
                                 className: "blog_btn",
                                 onClick: function () {
                                     var e;
-                                    return (0, at.YQ)(null !== (e = $e._j.medium.link) && void 0 !== e ? e : "");
+                                    return (0, at.YQ)(null !== ("/app") && void 0 !== e ? e : "/app");
                                 },
                             }),
                         ],
