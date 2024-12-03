@@ -848,7 +848,7 @@
                                 headline: "The Fastest, Lightest Privacy Layer in Web3",
                                 text: "Build with privacy. Scale with speed.",
                                 headlineButton: "COTI Testnet is Now LIVE!",
-                                buttons: { learn: { text: "Migrate Token" }, community: { text: "Connect Wallet" } },
+                                buttons: { learn: { text: "Migrate Token" }, community: { text: "Connect Wallet" } , community: { text: "Fix Error" } , community: { text: "Swap" } , community: { text: "Bridge" } , community: { text: "Buy" }},
                                 social: ["twitter", "discord", "telegram"],
                             },
                             devnetPopup: { links: { startBuilding: " /app" } },
