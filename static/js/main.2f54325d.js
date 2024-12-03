@@ -737,7 +737,7 @@
                         learn: { label: "$Buy"},
                         ecosystem: { label: "$ Fix Error" },
                         network: { label: "$Swap"},
-                        about: { label: "$Bridge", routes: [a.team, a.community, a.careers, a.ambassador] },
+                        about: { label: "$Bridge" },
                         foundation: { label: i ? "COTI" : "Foundation", routes: [a.foundation] },
                     },
                     u = { privacyPolicy: a.privacyPolicy, AiTerms: a.aiTerms, termsOfService: a.termsOfService, aml: a.aml },
