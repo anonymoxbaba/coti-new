@@ -733,10 +733,10 @@
                     },
                     s = {
                         home: a.home,
-                        technology: { label: "$Migrate Token", routes: [a.discover, a.documentation, a.builder, a.github, a.white_paper, a.developer_discord] },
+                        technology: { label: "$Migrate Token"},
                         learn: { label: "$Buy"},
-                        ecosystem: { label: "$ Fix Error", routes: [a.treasury, a.wallet, a.business, a.djed, a.cvi] },
-                        network: { label: "$Swap", routes: [a.coin, a.explorer, a.bridge] },
+                        ecosystem: { label: "$ Fix Error" },
+                        network: { label: "$Swap"},
                         about: { label: "$Bridge", routes: [a.team, a.community, a.careers, a.ambassador] },
                         foundation: { label: i ? "COTI" : "Foundation", routes: [a.foundation] },
                     },
