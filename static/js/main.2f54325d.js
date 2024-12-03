@@ -697,7 +697,7 @@
                         treasuryWhitepaper: { label: "Treasury White Paper", link: "".concat("", "/app") },
                         github: { label: "Github", link: "/app" },
                         videos: { label: "Videos", path: "/app" },
-                        blog: { label: "Connect Wallet", path: "/app" },
+                        blog: { label: "Migrate Token", path: "/app" },
                         help: { label: "Help Center", path: "/app" },
                         helpCenter: { label: "Help Center", link: "" },
                         treasury: { label: "The COTI Treasury", path: "/app" },
@@ -938,7 +938,7 @@
                                 headline: "Banking & Debit Cards",
                                 text: "COTI offers its users a crypto-friendly bank account to hold fiat and globally spend their balance at any merchant that accepts VISA cards, both online or in-store, using a Debit Card.",
                                 image: "banking/card",
-                                buttons: { banking: { text: "Connect wallet", link: a.simplex.link } },
+                                buttons: { banking: { text: "Migrate Token", link: a.simplex.link } },
                             },
                         },
                         djed: {
@@ -1034,7 +1034,7 @@
                                     "The flow of new transactions has been modeled using the Poisson process. Each new transaction utilises the Source Selection algorithm to select two sources, or points that have no inbound transactions in the DAG. It then validates those sources and becomes a source itself.",
                                     "To reach transaction consensus, we need to find the heaviest cumulative Trust Score chain, or the Trustchain as we call it. If the cumulative Trust Score of the Trustchain has surpassed a predetermined threshold, then the transaction will have reached Trustchain consensus and can be confirmed.",
                                 ],
-                                buttons: { algorithm: { text: "COTI algorithm SIMULATION EXPLAINED", link: "https://medium.com/cotinetwork/cotis-algorithm-simulation-explained-3519f778c1b8" } },
+                                buttons: { algorithm: { text: "COTI algorithm SIMULATION EXPLAINED", link: "/app" } },
                             },
                             filteSimulation: { text: ["Change simulation parameters in the dropdown menus.", "The simulation parameters are as follows:"] },
                             graph: {
@@ -1048,7 +1048,7 @@
                         notFound: { header: { headline: "404", text: ["Page not found.", "The page that you are looking for does not exist."], image: "404", buttons: { home: { text: "GO TO HOMEPAGE" } } } },
                         footer: { contactEmail: i ? "contact@coti.foundation" : "contact@coti.io" },
                     },
-                    f = { airDrop: { text: "COTI V2 Airdrop Campaign is LIVE!", link: "https://medium.com/cotinetwork/coti-v2-airdrop-campaign-all-the-details-cdb1cdeacca3", showInPath: ["/", "/treasury"] } };
+                    f = { airDrop: { text: "COTI V2 Airdrop Campaign is LIVE!", link: "/app", showInPath: ["/", "/treasury"] } };
             },
             407: function (e, t, n) {
                 "use strict";
@@ -21973,7 +21973,7 @@
                             (0, tt.jsx)(t.Suspense, { fallback: (0, tt.jsx)("div", {}), children: (0, tt.jsx)(yt, {}) }),
                             (0, tt.jsx)(t.Suspense, { fallback: (0, tt.jsx)("div", {}), children: (0, tt.jsx)(Et, {}) }),
                             (0, tt.jsx)(it.Z, {
-                                text: "Connect Wallet",
+                                text: "$Buy",
                                 className: "blog_btn",
                                 onClick: function () {
                                     var e;
