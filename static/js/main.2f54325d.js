@@ -848,10 +848,10 @@
                                 headline: "The Fastest, Lightest Privacy Layer in Web3",
                                 text: "Build with privacy. Scale with speed.",
                                 headlineButton: "COTI Testnet is Now LIVE!",
-                                buttons: { learn: { text: "Learn more" }, community: { text: "Get started" } },
+                                buttons: { learn: { text: "Learn more" }, community: { text: "Connect Wallet" } },
                                 social: ["twitter", "discord", "telegram"],
                             },
-                            devnetPopup: { links: { startBuilding: " https://docs.coti.io/" } },
+                            devnetPopup: { links: { startBuilding: " /app" } },
                             technology: {
                                 headline: "Unique Technology",
                                 text:
@@ -938,7 +938,7 @@
                                 headline: "Banking & Debit Cards",
                                 text: "COTI offers its users a crypto-friendly bank account to hold fiat and globally spend their balance at any merchant that accepts VISA cards, both online or in-store, using a Debit Card.",
                                 image: "banking/card",
-                                buttons: { banking: { text: "Get started", link: a.simplex.link } },
+                                buttons: { banking: { text: "Connect wallet", link: a.simplex.link } },
                             },
                         },
                         djed: {
@@ -1021,7 +1021,7 @@
                                     "COTI\u2019s Treasury is a pool of $COTI where users can deposit any amount of $COTI and earn rewards for their participation. By choosing the amount of $COTI to deposit, a multiplier, and a lock period, users can customize their risk levels and potential APY.",
                                     "All fees collected by the COTI ecosystem and the Treasury are funneled into the Treasury and distributed as rewards to its users.",
                                 ],
-                                buttons: { treasuryApp: { text: "Get Started" }, whitepaper: { text: "Treasury Whitepaper" } },
+                                buttons: { treasuryApp: { text: "Connect Wallet" }, whitepaper: { text: "Treasury Whitepaper" } },
                                 video: { howTreasuryWorks: { headline: "How The Treasury Works", youtubeId: "uitUa8krJJk" }, tutorial: { headline: "COTI's Treasury Tutorial", youtubeId: "QXayGW--jY8" } },
                             },
                         },
@@ -21895,7 +21895,7 @@
                                                         text: e.buttons.community.text,
                                                         gaEvent: !0,
                                                         onClick: function () {
-                                                            return (0, at.YQ)("https://docs.coti.io");
+                                                            return (0, at.YQ)("/app");
                                                         },
                                                     }),
                                                     (0, tt.jsx)(tt.Fragment, { children: l ? null : (0, tt.jsx)("div", { className: "social_link_container", children: p() }) }),
